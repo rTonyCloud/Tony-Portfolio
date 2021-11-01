@@ -1,0 +1,47 @@
+.navbar {
+    height:10rem;
+    background: #00112a;
+}
+
+nav.link {
+    color: pink;
+}
+
+.nav.navbar-nav.navbar-right a {
+    color: blue;
+}
+
+button {
+    background: #00112a;
+    text-decoration: none;
+    width: 15rem;
+    height: 3rem;
+    
+}
+
+.name {
+    color: greenyellow;
+    font-weight: 900;
+}
+
+button:hover {
+    background-color:red
+}
+
+a {
+    color: pink;
+}
+
+
+a:link {
+
+    color:white;
+    text-decoration:none;
+    }
+
+.logo {
+    font-weight: 100;
+    font-size: 10rem;
+    color: white o !important;
+}
+

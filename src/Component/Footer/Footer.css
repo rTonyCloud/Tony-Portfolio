@@ -1,0 +1,13 @@
+
+footer {
+  padding: 1rem;
+  position: fixed;
+  /* min-height: 100vh; */
+  color:white;
+  background: #00112a;
+  padding-bottom: 2.5rem;
+  bottom: 0;
+  left:0;
+  right:0;
+  height:3vh;
+}
