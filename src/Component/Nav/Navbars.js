@@ -1,26 +1,18 @@
 import React from "react";
+// import { withRouter } from 'react-router-dom'; 
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import logo from '../../assets/logo/logo.png'
 import resume from '../../assets/resume.pdf'
 
+import { Link } from "react-router-dom";
+
 // styles
 import './Navbars.css'
 
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from 'react-router-dom'
-import About from "../About/About";
-import Contact from "../Contact/Contact";
-import Home from "../Home/Home";
-import Projects from "../Projects/Projects";
 
 const Navbars = () => {
 
 return (
-<Router>
 <div className="Nav">
     <Navbar claasName="Navbar" variant={"dark"} expand="lg">
         <Container>
@@ -41,25 +33,29 @@ return (
         </Container>
     </Navbar>
 </div>
-<div>
+
+
+/* <div>
     <Switch>
-        <Route path="/About">
+        <Route path="/About" exact component={About}>
             <About/>
         </Route>
-        <Route path="/Contact">
+        <Route path="/Contact" exact component={Contact}>
             <Contact/>
         </Route>
-        <Route path="/Home">
-            <Home />
-        </Route>
-        <Route path="/Projects">
+        <Route path="/Projects" exact component={Projects}>
             <Projects/>
         </Route>
-        
+        <Route path="/" exact component={Home} >
+            <Home />
+        </Route>
     </Switch>
-</div>
-</Router>
+</div> */
+
+
 )
 };
+
+
 
 export default Navbars;

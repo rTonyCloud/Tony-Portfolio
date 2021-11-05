@@ -1,19 +1,13 @@
 import React from 'react';
-// import Image from '../../assets/slider.jpg'
-// import About from '../About/About';
-// import Projects from '../Projects/Projects';
-// import Button from 'react-bootstrap/Button'
+import '../../App.css'
+import Slider from '../../Component/Slider/Slider'
 
-
-const Home = () => {
-    // const styes = {
-    //     backgroundImage: '../../assets/slider.png', alt:"jumbotron"
-    // }
+function Home() {
     return (
-        <div>
-        </div>
-      );
-    }
-
+        <>
+            <Slider />
+        </>
+    )
+}
 
 export default Home;
