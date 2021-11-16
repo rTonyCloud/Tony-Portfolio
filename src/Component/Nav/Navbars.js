@@ -33,28 +33,13 @@ return (
                 <div>
                 <a href="https://github.com/rTonyCloud/"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/tony-rivera-engineer/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://stackoverflow.com/users/15778624/tonycloud"><i class="fab fa-stack-overflow"></i></a>
                 </div>
+              
         </Container>
     </Navbar>
 </div>
 
-
-/* <div>
-    <Switch>
-        <Route path="/About" exact component={About}>
-            <About/>
-        </Route>
-        <Route path="/Contact" exact component={Contact}>
-            <Contact/>
-        </Route>
-        <Route path="/Projects" exact component={Projects}>
-            <Projects/>
-        </Route>
-        <Route path="/" exact component={Home} >
-            <Home />
-        </Route>
-    </Switch>
-</div> */
 
 
 )
