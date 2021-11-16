@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css'
-import Slider from '../../Component/Slider/Slider'
+import Slider from '../../Component/Jumbotron/Jumbotron'
 
 function Home() {
     return (

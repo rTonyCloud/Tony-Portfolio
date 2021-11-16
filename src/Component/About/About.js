@@ -10,7 +10,7 @@ const About = () => {
      <div>
                     <Container>
                     <h1>About Me:</h1> 
-                    <h2>My name is Tony Rivera and I am a fullstack developer!</h2>
+                    <h2>My name is Tony Rivera and I am a Full-Stack Engineer!</h2>
                             <Row>
                                 <Col xs={2} md={2}>
                                 <img src={Me} alt="tonyphoto" roundedCircle />{' '}

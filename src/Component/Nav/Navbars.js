@@ -30,6 +30,10 @@ return (
                         <button><a href={resume} download="resume.pdf">Download Resume</a></button>
                     </Nav>
                 </Navbar.Collapse>
+                <div>
+                <a href="https://github.com/rTonyCloud/"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tony-rivera-engineer/"><i class="fab fa-linkedin"></i></a>
+                </div>
         </Container>
     </Navbar>
 </div>
