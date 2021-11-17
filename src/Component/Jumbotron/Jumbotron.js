@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../../assets/slider.jpg'
+
 
 
 const Jumbotron = () => {
