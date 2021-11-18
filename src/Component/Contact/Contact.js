@@ -1,3 +1,5 @@
+import { Container } from 'react-bootstrap';
+
 import React, { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
@@ -37,6 +39,7 @@ function Contact() {
   };
 
   return (
+    <Container>
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
@@ -57,9 +60,10 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button data-testid="button" type="submit" className="btn">Submit</button>
       </form>
     </section>
+    </Container>
   );
 }
 

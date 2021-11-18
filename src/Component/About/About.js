@@ -13,7 +13,7 @@ const About = () => {
                     <h2>My name is Tony Rivera and I am a Full-Stack Engineer!</h2>
                             <Row>
                                 <Col xs={2} md={2}>
-                                <img src={Me} alt="tonyphoto" roundedCircle />{' '}
+                                <img src={Me} alt="tonyphoto" roundedCircle/>{' '}
                                 </Col>
                             </Row>
                     </Container>

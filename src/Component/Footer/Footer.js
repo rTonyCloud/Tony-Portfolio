@@ -10,11 +10,12 @@ import "./Footer.css"
 function Footer() {
 
     return (
+        <div>
             <footer>
                 <h2>© 2021 Tony Rivera</h2>
-                {/* const element = <FontAwesomeIcon icon={faCoffee} />
-                const element = <FontAwesomeIcon icon={faCoffee} /> */}
+                
             </footer>
+        </div>
     )
 }
 

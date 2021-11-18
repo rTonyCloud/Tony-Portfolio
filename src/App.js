@@ -40,8 +40,7 @@ function App() {
       <nav>
         <Nav />
       </nav>
-      
-      <div>
+  
         <Switch>
           <Route path="/About" component={About}>
           </Route>
@@ -52,7 +51,7 @@ function App() {
           <Route path="/" exact component={Home}>
           </Route>
         </Switch>
-      </div>
+      
         <footer>
           <Footer />
         </footer>
