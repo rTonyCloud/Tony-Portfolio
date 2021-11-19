@@ -16,7 +16,7 @@ return (
 <div className="Nav">
     <Navbar claasName="Navbar" variant={"dark"} expand="lg">
         <Container>
-            <Navbar.Brand href="http://localhost:3000/React-Portfolio"> 
+            <Navbar.Brand href=""> 
             <img src={logo} alt="Logo" className="logo" />{' '}
             </Navbar.Brand>
             
