@@ -16,14 +16,14 @@ return (
 <div className="Nav">
     <Navbar claasName="Navbar" variant={"dark"} expand="lg">
         <Container>
-            <Navbar.Brand href=""> 
+            <Navbar.Brand href="https://rtonycloud.github.io/React-Portfolio"> 
             <img src={logo} alt="Logo" className="logo" />{' '}
             </Navbar.Brand>
             
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav >
-                        <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
+                        <Nav.Link as={Link} to={"/React-Portfolio"}>Home</Nav.Link>
                         <Nav.Link as={Link} to={"/About"}>About</Nav.Link>
                         <Nav.Link as={Link} to={"/Projects"}>Projects</Nav.Link>
                         <Nav.Link as={Link} to={"/Contact"}>Contact</Nav.Link>

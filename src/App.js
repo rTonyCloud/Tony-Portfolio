@@ -48,7 +48,7 @@ function App() {
           </Route>
           <Route  path="/Contact" component={Contact}>
           </Route>
-          <Route path="/" exact component={Home}>
+          <Route path="/React-Portfolio" exact component={Home}>
           </Route>
         </Switch>
       
